@@ -14,8 +14,8 @@ function setToRandom(scale) {
 } 
 
 function makePac() {
-  let velocity = setToRandom(10); 
-  let position = setToRandom(200);
+  let velocity = setToRandom(20); 
+  let position = setToRandom(600);
 
   let game = document.getElementById('game');
   let newimg = document.createElement('img');
